@@ -1,0 +1,7 @@
+dependencies:
+- host: github.com
+  owner: Sjyhne
+  repo: react-quickstart
+  url: https://github.com/Sjyhne/react-quickstart.git
+  version: ""
+  versionURL: ""
