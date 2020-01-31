@@ -1,0 +1,10 @@
+adminUser:
+  password: local:daggerdisco/adminUser:password
+  username: admin
+enableDocker: false
+pipelineUser:
+  email: sandsjyhne@gmail.com
+  token: local:daggerdisco/pipelineUser:token
+  username: sjyhne
+prow:
+  hmacToken: local:daggerdisco/prow:hmacToken

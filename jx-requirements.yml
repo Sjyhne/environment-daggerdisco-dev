@@ -1,25 +1,69 @@
+autoUpdate:
+  enabled: false
+  schedule: ""
+bootConfigURL: https://github.com/sjyhne/environment-daggerdisco-dev
 cluster:
-  clusterName: ""
-  environmentGitOwner: ""
-  environmentGitPublic: false
-  project: ""
+  clusterName: daggerdisco
+  devEnvApprovers:
+  - sjyhne
+  environmentGitOwner: sjyhne
+  gitKind: github
+  gitName: github
+  gitServer: https://github.com
+  namespace: jx
+  project: uia-kilde-bach
   provider: gke
-  zone: ""
-gitops: true
+  registry: gcr.io
+  zone: europe-north1-a
 environments:
-- key: dev
-- key: staging
-- key: production
+- ingress:
+    cloud_dns_secret_name: external-dns-gcp-sa
+    domain: jyhne.no
+    externalDNS: true
+    namespaceSubDomain: -jx.
+    tls:
+      email: sandsjyhne@gmail.com
+      enabled: true
+      production: false
+  key: dev
+  repository: environment-daggerdisco-dev
+- ingress:
+    domain: jyhne.no
+    externalDNS: true
+    namespaceSubDomain: -stage.
+    tls:
+      email: sandsjyhne@gmail.com
+      enabled: true
+      production: false
+  key: staging
+  repository: environment-daggerdisco-staging
+- ingress:
+    domain: jyhne.no
+    externalDNS: true
+    namespaceSubDomain: -prod.
+    tls:
+      email: sandsjyhne@gmail.com
+      enabled: true
+      production: false
+  key: production
+  repository: environment-daggerdisco-production
+gitops: true
 ingress:
-  domain: ""
-  externalDNS: false
+  cloud_dns_secret_name: external-dns-gcp-sa
+  domain: jyhne.no
+  externalDNS: true
+  namespaceSubDomain: -jx.
   tls:
-    email: ""
-    enabled: false
+    email: sandsjyhne@gmail.com
+    enabled: true
     production: false
 kaniko: true
+repository: nexus
 secretStorage: local
 storage:
+  backup:
+    enabled: false
+    url: ""
   logs:
     enabled: false
     url: ""
@@ -29,7 +73,11 @@ storage:
   repository:
     enabled: false
     url: ""
+vault: {}
+velero:
+  schedule: ""
+  ttl: ""
 versionStream:
-  ref: "master"
+  ref: v1.0.331
   url: https://github.com/jenkins-x/jenkins-x-versions.git
 webhook: prow
