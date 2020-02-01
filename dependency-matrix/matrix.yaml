@@ -5,3 +5,9 @@ dependencies:
   url: https://github.com/Sjyhne/react-quickstart.git
   version: ""
   versionURL: ""
+- host: github.com
+  owner: Sjyhne
+  repo: spring-microservice-connection-test
+  url: https://github.com/Sjyhne/spring-microservice-connection-test.git
+  version: ""
+  versionURL: ""
