@@ -11,3 +11,9 @@ dependencies:
   url: https://github.com/Sjyhne/spring-microservice-connection-test.git
   version: ""
   versionURL: ""
+- host: github.com
+  owner: Sjyhne
+  repo: python-http
+  url: https://github.com/Sjyhne/python-http.git
+  version: ""
+  versionURL: ""
