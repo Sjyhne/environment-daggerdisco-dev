@@ -17,3 +17,9 @@ dependencies:
   url: https://github.com/Sjyhne/python-http.git
   version: ""
   versionURL: ""
+- host: github.com
+  owner: jenkins-x
+  repo: bdd-jx
+  url: https://github.com/jenkins-x/bdd-jx.git
+  version: ""
+  versionURL: ""
