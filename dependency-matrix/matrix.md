@@ -6,3 +6,4 @@ Dependency | Sources | Version | Mismatched versions
 [Sjyhne/spring-microservice-connection-test](https://github.com/Sjyhne/spring-microservice-connection-test.git) |  | []() | 
 [Sjyhne/python-http](https://github.com/Sjyhne/python-http.git) |  | []() | 
 [jenkins-x/bdd-jx](https://github.com/jenkins-x/bdd-jx.git) |  | []() | 
+[Sjyhne/golang-http](https://github.com/Sjyhne/golang-http.git) |  | []() | 
