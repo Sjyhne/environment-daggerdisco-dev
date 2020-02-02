@@ -11,3 +11,4 @@ Dependency | Sources | Version | Mismatched versions
 [Sjyhne/springboottest](https://github.com/Sjyhne/springboottest.git) |  | []() | 
 [Sjyhne/angular-io-quickstart](https://github.com/Sjyhne/angular-io-quickstart.git) |  | []() | 
 [Sjyhne/rails-shopping-cart](https://github.com/Sjyhne/rails-shopping-cart.git) |  | []() | 
+[Sjyhne/node-http-watch-pipeline-activity](https://github.com/Sjyhne/node-http-watch-pipeline-activity.git) |  | []() | 

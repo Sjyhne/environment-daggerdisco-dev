@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: Sjyhne
+    provider: github
+    repository: node-http-watch-pipeline-activity
+  name: sjyhne-node-http-watch-pipeline-activity
+spec:
+  description: Imported application for Sjyhne/node-http-watch-pipeline-activity
+  httpCloneURL: https://github.com/Sjyhne/node-http-watch-pipeline-activity.git
+  org: Sjyhne
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: node-http-watch-pipeline-activity
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/Sjyhne/node-http-watch-pipeline-activity.git
