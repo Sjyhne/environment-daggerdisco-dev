@@ -8,3 +8,4 @@ Dependency | Sources | Version | Mismatched versions
 [jenkins-x/bdd-jx](https://github.com/jenkins-x/bdd-jx.git) |  | []() | 
 [Sjyhne/golang-http](https://github.com/Sjyhne/golang-http.git) |  | []() | 
 [Sjyhne/php-helloworld](https://github.com/Sjyhne/php-helloworld.git) |  | []() | 
+[Sjyhne/springboottest](https://github.com/Sjyhne/springboottest.git) |  | []() | 
