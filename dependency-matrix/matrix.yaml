@@ -59,3 +59,9 @@ dependencies:
   url: https://github.com/Sjyhne/node-http-watch-pipeline-activity.git
   version: ""
   versionURL: ""
+- host: github.com
+  owner: Sjyhne
+  repo: tut-spring-boot-kotlin
+  url: https://github.com/Sjyhne/tut-spring-boot-kotlin.git
+  version: ""
+  versionURL: ""
