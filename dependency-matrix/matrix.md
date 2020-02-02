@@ -9,3 +9,4 @@ Dependency | Sources | Version | Mismatched versions
 [Sjyhne/golang-http](https://github.com/Sjyhne/golang-http.git) |  | []() | 
 [Sjyhne/php-helloworld](https://github.com/Sjyhne/php-helloworld.git) |  | []() | 
 [Sjyhne/springboottest](https://github.com/Sjyhne/springboottest.git) |  | []() | 
+[Sjyhne/angular-io-quickstart](https://github.com/Sjyhne/angular-io-quickstart.git) |  | []() | 
