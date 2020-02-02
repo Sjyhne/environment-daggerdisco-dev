@@ -10,3 +10,4 @@ Dependency | Sources | Version | Mismatched versions
 [Sjyhne/php-helloworld](https://github.com/Sjyhne/php-helloworld.git) |  | []() | 
 [Sjyhne/springboottest](https://github.com/Sjyhne/springboottest.git) |  | []() | 
 [Sjyhne/angular-io-quickstart](https://github.com/Sjyhne/angular-io-quickstart.git) |  | []() | 
+[Sjyhne/rails-shopping-cart](https://github.com/Sjyhne/rails-shopping-cart.git) |  | []() | 
