@@ -29,3 +29,9 @@ dependencies:
   url: https://github.com/Sjyhne/golang-http.git
   version: ""
   versionURL: ""
+- host: github.com
+  owner: Sjyhne
+  repo: php-helloworld
+  url: https://github.com/Sjyhne/php-helloworld.git
+  version: ""
+  versionURL: ""
