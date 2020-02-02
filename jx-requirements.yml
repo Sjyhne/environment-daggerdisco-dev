@@ -30,7 +30,7 @@ environments:
 - ingress:
     domain: jyhne.no
     externalDNS: true
-    namespaceSubDomain: -stage.
+    namespaceSubDomain: stage.
     tls:
       email: sandsjyhne@gmail.com
       enabled: true
@@ -40,7 +40,7 @@ environments:
 - ingress:
     domain: jyhne.no
     externalDNS: true
-    namespaceSubDomain: -prod.
+    namespaceSubDomain: prod.
     tls:
       email: sandsjyhne@gmail.com
       enabled: true
