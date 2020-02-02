@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: Sjyhne
+    provider: github
+    repository: angular-io-quickstart
+  name: sjyhne-angular-io-quickstart
+spec:
+  description: Imported application for Sjyhne/angular-io-quickstart
+  httpCloneURL: https://github.com/Sjyhne/angular-io-quickstart.git
+  org: Sjyhne
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: angular-io-quickstart
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/Sjyhne/angular-io-quickstart.git

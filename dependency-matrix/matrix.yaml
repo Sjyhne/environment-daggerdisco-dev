@@ -41,3 +41,9 @@ dependencies:
   url: https://github.com/Sjyhne/springboottest.git
   version: ""
   versionURL: ""
+- host: github.com
+  owner: Sjyhne
+  repo: angular-io-quickstart
+  url: https://github.com/Sjyhne/angular-io-quickstart.git
+  version: ""
+  versionURL: ""
