@@ -10,3 +10,6 @@ Dependency | Sources | Version | Mismatched versions
 [Sjyhne/php-helloworld](https://github.com/Sjyhne/php-helloworld.git) |  | []() | 
 [Sjyhne/springboottest](https://github.com/Sjyhne/springboottest.git) |  | []() | 
 [Sjyhne/angular-io-quickstart](https://github.com/Sjyhne/angular-io-quickstart.git) |  | []() | 
+[Sjyhne/rails-shopping-cart](https://github.com/Sjyhne/rails-shopping-cart.git) |  | []() | 
+[Sjyhne/node-http-watch-pipeline-activity](https://github.com/Sjyhne/node-http-watch-pipeline-activity.git) |  | []() | 
+[Sjyhne/tut-spring-boot-kotlin](https://github.com/Sjyhne/tut-spring-boot-kotlin.git) |  | []() | 
