@@ -8,3 +8,4 @@ spec:
     kind: Scheduler
     name: default-scheduler
   repositories: []
+
