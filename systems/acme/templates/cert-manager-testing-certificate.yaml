@@ -1,0 +1,17 @@
+{{- if .Values.certmanager.enabled }}
+{{- if eq .Values.certmanager.production "false" }}
+apiVersion: cert-manager.io/v1alpha2
+kind: Certificate
+metadata:
+  name: "tls-{{ .Values.cluster.domain | replace "." "-" }}-p"
+  labels:
+    jenkins.io/letsencrypt-service: testing
+spec:
+  secretName: "tls-{{ .Values.cluster.domain | replace "." "-" }}-p"
+  issuerRef:
+    name: letsencrypt-test
+  commonName: "*.{{ .Values.cluster.domain }}"
+  dnsNames:
+  - "*.{{ .Values.cluster.domain }}"
+{{- end }}
+{{- end }}
