@@ -83,3 +83,9 @@ dependencies:
   url: https://github.com/Sjyhne/scala-akka-http-quickstart.git
   version: ""
   versionURL: ""
+- host: github.com
+  owner: Sjyhne
+  repo: python-php
+  url: https://github.com/Sjyhne/python-php.git
+  version: ""
+  versionURL: ""
