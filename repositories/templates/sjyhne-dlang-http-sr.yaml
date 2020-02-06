@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: Sjyhne
+    provider: github
+    repository: dlang-http
+  name: sjyhne-dlang-http
+spec:
+  description: Imported application for Sjyhne/dlang-http
+  httpCloneURL: https://github.com/Sjyhne/dlang-http.git
+  org: Sjyhne
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: dlang-http
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/Sjyhne/dlang-http.git
