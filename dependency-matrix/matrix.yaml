@@ -77,3 +77,9 @@ dependencies:
   url: https://github.com/Sjyhne/dlang-http.git
   version: ""
   versionURL: ""
+- host: github.com
+  owner: Sjyhne
+  repo: scala-akka-http-quickstart
+  url: https://github.com/Sjyhne/scala-akka-http-quickstart.git
+  version: ""
+  versionURL: ""
