@@ -14,3 +14,4 @@ Dependency | Sources | Version | Mismatched versions
 [Sjyhne/node-http-watch-pipeline-activity](https://github.com/Sjyhne/node-http-watch-pipeline-activity.git) |  | []() | 
 [Sjyhne/tut-spring-boot-kotlin](https://github.com/Sjyhne/tut-spring-boot-kotlin.git) |  | []() | 
 [Sjyhne/rust-htto](https://github.com/Sjyhne/rust-htto.git) |  | []() | 
+[Sjyhne/dlang-http](https://github.com/Sjyhne/dlang-http.git) |  | []() | 
