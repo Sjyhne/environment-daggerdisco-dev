@@ -18,3 +18,4 @@ Dependency | Sources | Version | Mismatched versions
 [Sjyhne/scala-akka-http-quickstart](https://github.com/Sjyhne/scala-akka-http-quickstart.git) |  | []() | 
 [Sjyhne/python-php](https://github.com/Sjyhne/python-php.git) |  | []() | 
 [Sjyhne/kildeskatt](https://github.com/Sjyhne/kildeskatt.git) |  | []() | 
+[Sjyhne/test](https://github.com/Sjyhne/test.git) |  | []() | 

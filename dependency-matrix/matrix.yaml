@@ -95,3 +95,9 @@ dependencies:
   url: https://github.com/Sjyhne/kildeskatt.git
   version: ""
   versionURL: ""
+- host: github.com
+  owner: Sjyhne
+  repo: test
+  url: https://github.com/Sjyhne/test.git
+  version: ""
+  versionURL: ""
