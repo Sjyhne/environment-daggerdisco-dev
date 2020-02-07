@@ -89,3 +89,9 @@ dependencies:
   url: https://github.com/Sjyhne/python-php.git
   version: ""
   versionURL: ""
+- host: github.com
+  owner: Sjyhne
+  repo: kildeskatt
+  url: https://github.com/Sjyhne/kildeskatt.git
+  version: ""
+  versionURL: ""
