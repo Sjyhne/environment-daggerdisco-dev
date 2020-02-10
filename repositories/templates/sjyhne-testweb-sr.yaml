@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: sjyhne
+    provider: github
+    repository: testweb
+  name: sjyhne-testweb
+spec:
+  description: Imported application for sjyhne/testweb
+  httpCloneURL: https://github.com/sjyhne/testweb
+  org: sjyhne
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: testweb
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/sjyhne/testweb
