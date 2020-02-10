@@ -119,3 +119,9 @@ dependencies:
   url: https://github.com/Sjyhne/testweb.git
   version: ""
   versionURL: ""
+- host: github.com
+  owner: Sjyhne
+  repo: webtest
+  url: https://github.com/Sjyhne/webtest.git
+  version: ""
+  versionURL: ""
