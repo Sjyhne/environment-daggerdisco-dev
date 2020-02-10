@@ -3,14 +3,14 @@ kind: SourceRepository
 metadata:
   creationTimestamp: null
   labels:
-    owner: sjyhne
+    owner: Sjyhne
     provider: github
     repository: testweb
   name: sjyhne-testweb
 spec:
-  description: Imported application for sjyhne/testweb
-  httpCloneURL: https://github.com/sjyhne/testweb
-  org: sjyhne
+  description: Imported application for Sjyhne/testweb
+  httpCloneURL: https://github.com/Sjyhne/testweb.git
+  org: Sjyhne
   provider: https://github.com
   providerKind: github
   providerName: github
@@ -18,4 +18,4 @@ spec:
   scheduler:
     kind: ""
     name: ""
-  url: https://github.com/sjyhne/testweb
+  url: https://github.com/Sjyhne/testweb.git
