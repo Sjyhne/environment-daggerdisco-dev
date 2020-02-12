@@ -28,22 +28,22 @@ environments:
   key: dev
   repository: environment-daggerdisco-dev
 - ingress:
-    domain: jyhne.no
-    externalDNS: true
-    namespaceSubDomain: -stage.
+    domain: ""
+    externalDNS: false
+    namespaceSubDomain: .jx.
     tls:
-      email: sandsjyhne@gmail.com
-      enabled: true
+      email: ""
+      enabled: false
       production: false
   key: staging
   repository: environment-daggerdisco-staging
 - ingress:
-    domain: jyhne.no
-    externalDNS: true
-    namespaceSubDomain: -prod.
+    domain: ""
+    externalDNS: false
+    namespaceSubDomain: .jx.
     tls:
-      email: sandsjyhne@gmail.com
-      enabled: true
+      email: ""
+      enabled: false
       production: false
   key: production
   repository: environment-daggerdisco-production
@@ -89,5 +89,5 @@ velero:
   ttl: ""
 versionStream:
   ref: v1.0.331
-  url: https://github.com/sjyhne/jenkins-x-versions.git
+  url: https://github.com/jenkins-x/jenkins-x-versions.git
 webhook: prow
