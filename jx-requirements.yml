@@ -24,7 +24,7 @@ environments:
     tls:
       email: sandsjyhne@gmail.com
       enabled: true
-      production: false
+      production: true
   key: dev
   repository: environment-daggerdisco-dev
 - ingress:
@@ -54,7 +54,7 @@ environments:
     tls:
       email: sandsjyhne@gmail.com
       enabled: true
-      production: false
+      production: true
   key: testing
   repository: environment-daggerdisco-testing
 gitops: true
@@ -66,23 +66,23 @@ ingress:
   tls:
     email: sandsjyhne@gmail.com
     enabled: true
-    production: false
+    production: true
 kaniko: true
 repository: nexus
 secretStorage: local
 storage:
   backup:
-    enabled: false
-    url: ""
+    enabled: true
+    url: gs://daggerdisco-backup-f59edcda-9591-482d-afc3-b17313bb37c1
   logs:
-    enabled: false
-    url: ""
+    enabled: true
+    url: gs://daggerdisco-logs-79f5fd05-b8da-4cb6-aef2-8cfa2af01fe6
   reports:
-    enabled: false
-    url: ""
+    enabled: true
+    url: gs://daggerdisco-reports-4c9973f6-71a1-4fcd-83d8-730bad3f602
   repository:
-    enabled: false
-    url: ""
+    enabled: true
+    url: gs://daggerdisco-repository-4c1bc237-88e2-428d-8999-aae4dddd
 vault: {}
 velero:
   schedule: ""
