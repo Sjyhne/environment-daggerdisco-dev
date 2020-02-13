@@ -50,7 +50,7 @@ environments:
 - ingress:
     domain: jyhne.no
     externalDNS: true
-    namespaceSubDomain: -test.
+    namespaceSubDomain: .
     tls:
       email: sandsjyhne@gmail.com
       enabled: true
