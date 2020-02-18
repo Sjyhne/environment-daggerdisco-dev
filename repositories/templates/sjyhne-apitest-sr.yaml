@@ -3,9 +3,6 @@ kind: SourceRepository
 metadata:
   creationTimestamp: null
   labels:
-    jenkins.io/chart-release: repos
-    jenkins.io/namespace: jx
-    jenkins.io/version: "1"
     owner: Sjyhne
     provider: github
     repository: apitest
