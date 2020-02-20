@@ -27,23 +27,23 @@ environments:
       production: false
   key: dev
   repository: environment-daggerdisco-dev
-- ingress:
+  - ingress:
     domain: jyhne.no
     externalDNS: true
-    namespaceSubDomain: .jx.
+    namespaceSubDomain: .
     tls:
       email: sandsjyhne@gmail.com
       enabled: true
       production: false
   key: staging
-  repository: environment-daggerdisco-staging
+  repository: environment-daggerdisco-testing
 - ingress:
     domain: jyhne.no
     externalDNS: true
-    namespaceSubDomain: .jx.
+    namespaceSubDomain: -prod.
     tls:
-      email: ""
-      enabled: false
+      email: sandsjyhne@gmail.com
+      enabled: true
       production: true
   key: production
   repository: environment-daggerdisco-production
@@ -54,7 +54,7 @@ environments:
     tls:
       email: sandsjyhne@gmail.com
       enabled: true
-      production: true
+      production: false
   key: testing
   repository: environment-daggerdisco-testing
 gitops: true
