@@ -23,6 +23,3 @@ dependencies:
   name: tekton
   repository: http://chartmuseum.jenkins-x.io
   version: 0.0.48
-- name: webtest
-  repository: http://jenkins-x-chartmuseum:8080
-  version: 0.0.103
