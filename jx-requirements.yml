@@ -36,7 +36,7 @@ environments:
       enabled: true
       production: false
   key: staging
-  repository: environment-daggerdisco-testing
+  repository: environment-daggerdisco-staging
 - ingress:
     domain: jyhne.no
     externalDNS: true
