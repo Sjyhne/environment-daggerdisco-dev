@@ -131,3 +131,9 @@ dependencies:
   url: https://github.com/Sjyhne/apitest.git
   version: ""
   versionURL: ""
+- host: github.com
+  owner: kennethkroaa
+  repo: kiskba
+  url: https://github.com/kennethkroaa/kiskba
+  version: ""
+  versionURL: ""
