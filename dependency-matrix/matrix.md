@@ -24,3 +24,4 @@ Dependency | Sources | Version | Mismatched versions
 [Sjyhne/testweb](https://github.com/Sjyhne/testweb.git) |  | []() | 
 [Sjyhne/webtest](https://github.com/Sjyhne/webtest.git) |  | []() | 
 [Sjyhne/apitest](https://github.com/Sjyhne/apitest.git) |  | []() | 
+[kennethkroaa/kiskba](https://github.com/kennethkroaa/kiskba) |  | []() | 
