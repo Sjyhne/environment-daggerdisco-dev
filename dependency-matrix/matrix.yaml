@@ -137,3 +137,9 @@ dependencies:
   url: https://github.com/kennethkroaa/kiskba
   version: ""
   versionURL: ""
+- host: github.com
+  owner: sjyhne
+  repo: kiskba
+  url: https://github.com/sjyhne/kiskba
+  version: ""
+  versionURL: ""
