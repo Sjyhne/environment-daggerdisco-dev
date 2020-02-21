@@ -8,10 +8,10 @@ environments:
   - key: dev
     owner: ""
     repository: ""
-  - key: staging
+  - key: testing
     owner: ""
     repository: ""
-  - key: production
+  - key: produksjon
     owner: ""
     repository: ""
 ingress:
