@@ -25,6 +25,28 @@ environments:
       email: sandsjyhne@gmail.com
       enabled: true
       production: false
+  key: staging
+  repository: environment-daggerdisco-stage
+- ingress:
+    cloud_dns_secret_name: external-dns-gcp-sa
+    domain: jyhne.no
+    externalDNS: true
+    namespaceSubDomain: .jx.
+    tls:
+      email: sandsjyhne@gmail.com
+      enabled: true
+      production: false
+  key: production
+  repository: environment-daggerdisco-prod
+- ingress:
+    cloud_dns_secret_name: external-dns-gcp-sa
+    domain: jyhne.no
+    externalDNS: true
+    namespaceSubDomain: .jx.
+    tls:
+      email: sandsjyhne@gmail.com
+      enabled: true
+      production: false
   key: dev
   repository: environment-daggerdisco-dev
 - ingress:
