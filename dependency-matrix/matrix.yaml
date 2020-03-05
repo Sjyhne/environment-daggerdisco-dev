@@ -143,3 +143,9 @@ dependencies:
   url: https://github.com/sjyhne/kiskba
   version: ""
   versionURL: ""
+- host: github.com
+  owner: sjyhne
+  repo: api
+  url: https://github.com/sjyhne/api.git
+  version: ""
+  versionURL: ""

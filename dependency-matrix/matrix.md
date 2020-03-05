@@ -26,3 +26,4 @@ Dependency | Sources | Version | Mismatched versions
 [Sjyhne/apitest](https://github.com/Sjyhne/apitest.git) |  | []() | 
 [kennethkroaa/kiskba](https://github.com/kennethkroaa/kiskba) |  | []() | 
 [sjyhne/kiskba](https://github.com/sjyhne/kiskba) |  | []() | 
+[sjyhne/api](https://github.com/sjyhne/api.git) |  | []() | 

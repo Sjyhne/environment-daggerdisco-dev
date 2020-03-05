@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: sjyhne
+    provider: github
+    repository: api
+  name: sjyhne-api
+spec:
+  description: Imported application for sjyhne/api
+  httpCloneURL: https://github.com/sjyhne/api.git
+  org: sjyhne
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: api
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/sjyhne/api.git
