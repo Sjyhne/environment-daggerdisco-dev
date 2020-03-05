@@ -2,17 +2,17 @@ apiVersion: jenkins.io/v1
 kind: SourceRepository
 metadata:
   annotations:
-    jenkins.io/last-build-number-for-master: "5"
+    jenkins.io/last-build-number-for-master: "6"
   creationTimestamp: null
   labels:
-    owner: sjyhne
+    owner: Sjyhne
     provider: github
     repository: api
   name: sjyhne-api
 spec:
-  description: Imported application for sjyhne/api
-  httpCloneURL: https://github.com/sjyhne/api.git
-  org: sjyhne
+  description: Imported application for Sjyhne/api
+  httpCloneURL: https://github.com/Sjyhne/api.git
+  org: Sjyhne
   provider: https://github.com
   providerKind: github
   providerName: github
@@ -20,4 +20,4 @@ spec:
   scheduler:
     kind: ""
     name: ""
-  url: https://github.com/sjyhne/api.git
+  url: https://github.com/Sjyhne/api.git

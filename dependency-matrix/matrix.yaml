@@ -149,3 +149,9 @@ dependencies:
   url: https://github.com/sjyhne/api.git
   version: ""
   versionURL: ""
+- host: github.com
+  owner: Sjyhne
+  repo: api
+  url: https://github.com/Sjyhne/api.git
+  version: ""
+  versionURL: ""
