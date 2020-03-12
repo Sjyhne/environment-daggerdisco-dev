@@ -28,3 +28,4 @@ Dependency | Sources | Version | Mismatched versions
 [sjyhne/kiskba](https://github.com/sjyhne/kiskba) |  | []() | 
 [sjyhne/api](https://github.com/sjyhne/api.git) |  | []() | 
 [Sjyhne/api](https://github.com/Sjyhne/api.git) |  | []() | 
+[Sjyhne/kiskba](https://github.com/Sjyhne/kiskba) |  | []() | 
